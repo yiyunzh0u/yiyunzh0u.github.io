@@ -1,6 +1,6 @@
 
 <h1 align="center">
-Homepage of Kyon Huang
+Homepage of Yiyun Zhou
 </h1>
 
 修改自 [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io)，部署请参考官方[英文文档](https://github.com/RayeRen/acad-homepage.github.io)或[中文文档](https://github.com/RayeRen/acad-homepage.github.io/blob/main/docs/README-zh.md)。
