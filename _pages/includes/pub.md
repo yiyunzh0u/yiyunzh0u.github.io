@@ -1,15 +1,45 @@
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/cuff-kt.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Cuff-KT: Tackling Learners’ Real-time Learning Pattern Adjustment via Tuning-Free Knowledge State Guided Model Updating](https://arxiv.org/pdf/2505.19543)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Yiyun Zhou**, Zheqi Lv, Shengyu Zhang, Jingyuan Chen
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='images/cola.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CoLA: Collaborative Low-Rank Adaptation](https://arxiv.org/pdf/2505.15471)
+
+**Yiyun Zhou**, Chang Yao, Jingyuan Chen
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2025</div><img src='images/diskt.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DisKT: Disentangled Knowledge Tracing for Alleviating Cognitive Bias](https://arxiv.org/pdf/2503.02539)
+
+**Yiyun Zhou**, Zheqi Lv, Shengyu Zhang, Jingyuan Chen
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECML-PKDD 2025</div><img src='images/dkt2.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DKT2: Revisiting Applicable and Comprehensive Knowledge Tracing in Large-Scale Data](https://arxiv.org/pdf/2501.14256)
+
+**Yiyun Zhou**, Wenkang Han, Jingyuan Chen
+
+</div>
+</div>
+
+<img src="https://img.shields.io/badge/ACMMM-2025-blue?style=flat-square"> Wenkang Han, Wang Lin, <u>Yiyun Zhou</u>, Qi Liu, Shulei Wang, Chang Yao, Jingyuan Chen, &quot;**Show and Polish: Reference-Guided Identity Preservation in Face Video Restoration**&quot;. [[arXiv](https://arxiv.org/abs/2507.10293)]
+
+<img src="https://img.shields.io/badge/IJCAI-2025-blue?style=flat-square"> Wenkang Han, Wang Lin, Liya Hu, Zhenlong Dai, <u>Yiyun Zhou</u>, Mengze Li, Zemin Liu, Chang Yao, Jingyuan Chen, &quot;**Contrastive Cross-Course Knowledge Tracing via Concept Graph Guided Knowledge Transfer**&quot;. [[arXiv](https://arxiv.org/abs/2505.13489)]

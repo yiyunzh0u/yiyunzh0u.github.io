@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yiyun Zhou (周逸云)"
-description              : "Focusing on data mining, LLM and multimodal learning." # "Second-year master in ZheJiang University. Focusing on data mining, LLM and multimodal learning."
+description              : "Focusing on data mining, multimodal learning and LLM." # "Second-year master in ZheJiang University. Focusing on data mining, LLM and multimodal learning."
 repository               : "yiyunzh0u/yiyunzh0u.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yiyun Zhou (周逸云)"
   avatar           : "images/profile.png"
-  bio              : "Second-year master in ZheJiang University."
+  bio              : "Second-year master in Zhejiang University."
   location         : "Hangzhou, China"
   employer         :
   pubmed           : 
@@ -37,15 +37,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yiyunzh0u"
+  github           : "zyy-2001"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : # e.g., "linkedin username"
-  dblp             : "https://dblp.uni-trier.de/pid/220/9698.html"
-  orcid            : "https://orcid.org/0009-0001-5801-8540"
+  dblp             : #"https://dblp.uni-trier.de/pid/220/9698.html"
+  orcid            : #"https://orcid.org/0009-0001-5801-8540"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

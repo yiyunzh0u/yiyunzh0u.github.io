@@ -20,16 +20,10 @@ redirect_from:
 
 {% include_relative includes/intro.md %}
 
-<!-- {% include_relative includes/research_interests.md %} -->
-
 {% include_relative includes/news.md %}
 
-<!-- {% include_relative includes/pub.md %} -->
+{% include_relative includes/pub.md %}
 
-{% include_relative includes/pub_short.md %}
+{% include_relative includes/honor.md %}
 
-{% include_relative includes/experience.md %}
-
-{% include_relative includes/services.md %}
-
-{% include_relative includes/misc.md %}
+{% include_relative includes/edu.md %}
