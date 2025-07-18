@@ -4,4 +4,4 @@
 🔬 My research has centered on the **data miming, multimodal learning, and LLM**. I have published some papers <a class='all_citation_badges' href="" target="_blank"></a> on the above topics at the top-tier international AI conferences such as WWW2025, KDD2025, ACL2025 and ECML-PKDD2025. Recently, I devote myself to the development of multi-view multi-label	learning.
 <!-- <a href="https://scholar.google.com/citations?user=mhpkWSYAAAAJ" target="_blank"><img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3DmhpkWSYAAAAJ&logo=googlescholar&style=social" align="center" alt="Google Scholar"></a> -->
 
-# **I will graduate in 2026 and am currently seeking PhD opportunities for Fall admission. Feel free to contact me at yiyunzhou@zju.edu.cn.**
+# **I will graduate in 2026 and am currently seeking PhD opportunities for fall admission. Feel free to contact me at yiyunzhou@zju.edu.cn.**
