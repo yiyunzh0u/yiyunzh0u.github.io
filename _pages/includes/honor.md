@@ -6,4 +6,4 @@
 
 - 2019-2023 CCPC/ICPC Asia Regional Contest and Invitational Contest, Bronze Medal and Silver Medal
 
-- 2019-2023 Jiangxi Province Collegiate Programming Competition, Runner-up
+- 2019-2023 Jiangxi Province Collegiate Programming Contest, Runner-up
