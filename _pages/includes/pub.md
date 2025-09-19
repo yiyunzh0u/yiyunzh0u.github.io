@@ -40,7 +40,7 @@
 </div>
 </div>
 
-<img src="https://img.shields.io/badge/NIPS-2025-blue?style=flat-square"> Quanjiang Li, Tianxiang Xu, Tingjin Luo, Yan Zhong, Yang Li, Yiyun Zhou, Chenping Hou, &quot;**Theory-Driven Label-Specific Representation for Incomplete Multi-View Multi-Label Learning**&quot;. [[openreview](https://openreview.net/forum?id=0Az25lvdT2)]
+<img src="https://img.shields.io/badge/NIPS-2025-blue?style=flat-square"> Quanjiang Li, Tianxiang Xu, Tingjin Luo, Yan Zhong, Yang Li, <u>Yiyun Zhou</u>, Chenping Hou, &quot;**Theory-Driven Label-Specific Representation for Incomplete Multi-View Multi-Label Learning**&quot;. [[openreview](https://openreview.net/forum?id=0Az25lvdT2)]
 
 <img src="https://img.shields.io/badge/ACMMM-2025-blue?style=flat-square"> Wenkang Han, Wang Lin, <u>Yiyun Zhou</u>, Qi Liu, Shulei Wang, Chang Yao, Jingyuan Chen, &quot;**Show and Polish: Reference-Guided Identity Preservation in Face Video Restoration**&quot;. [[arXiv](https://arxiv.org/abs/2507.10293)]
 
