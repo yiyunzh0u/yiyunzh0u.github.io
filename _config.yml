@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yiyun Zhou (周逸云)"
-description              : "Focusing on data mining, multimodal learning and LLM." # "Second-year master in ZheJiang University. Focusing on data mining, LLM and multimodal learning."
+description              : "Focusing on data miming, multimodal learning, LLM, multi-view multi-label learning, and AIGC (video Generation and image editing)." # "Second-year master in ZheJiang University. Focusing on data mining, LLM and multimodal learning."
 repository               : "yiyunzh0u/yiyunzh0u.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yiyun Zhou (周逸云)"
   avatar           : "images/profile.png"
-  bio              : "Second-year master in Zhejiang University."
+  bio              : "Third-year master in Zhejiang University."
   location         : "Hangzhou, China"
   employer         :
   pubmed           : 

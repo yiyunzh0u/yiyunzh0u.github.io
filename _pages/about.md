@@ -26,4 +26,6 @@ redirect_from:
 
 {% include_relative includes/honor.md %}
 
+{% include_relative includes/services.md %}
+
 {% include_relative includes/edu.md %}
