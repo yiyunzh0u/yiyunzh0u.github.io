@@ -1,6 +1,6 @@
 # 🎖 Honors and Awards
 
-- 2025.10 National Scholarship (master) (Top 1%, 3/327)
+- 2025.10 National Scholarship (master) (Top 1%, 2/327)
 
 - 2019-2023 One-class Scholarship of Nanchang University
 
