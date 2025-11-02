@@ -1,9 +1,10 @@
 # 🧑‍🎨 Professional Services
 
-### Conference Reviewer
+### PC Member of Conferences:
 
-* AAAI 2026, ICLR2026
+* Program Committee Member of AAAI (2026)
+* Program Committee Member of ICLR (2026)
 
-### Journal Reviewer
+### Invited Reviewer of Journals:
 
-* TOIS 2026
+* Invited Reviewer for ACM Transactions on Information Systems (TOIS)
