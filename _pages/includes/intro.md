@@ -1,3 +1,10 @@
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <div style="text-align: center; flex: 1;">1️⃣ Perseverance beyond the ordinary.</div>
+  <div style="text-align: center; flex: 1;">2️⃣ Never complain.</div>
+  <div style="text-align: center; flex: 1;">3️⃣ Believe in optimism.</div>
+</div>
+
+
 👋 Hi! I am Yiyun Zhou (周逸云 in Chinese), a third-year master's student in [Zhejiang University](http://www.zju.edu.cn/) <a href="http://www.zju.edu.cn/" target="_blank"><img src='./images/zju.png' align="center" style='vertical-align: middle; width: 19px;'></a> and advised by Prof. [Jingyuan Chen](https://scholar.google.com/citations?user=o_G2qa0AAAAJ).
 
 
