@@ -1,8 +1,9 @@
 <div style="display: flex; justify-content: space-between; width: 100%;">
-  <div style="text-align: center; flex: 1;">1️⃣ Perseverance beyond the ordinary.</div>
-  <div style="text-align: center; flex: 1;">2️⃣ Never complain.</div>
-  <div style="text-align: center; flex: 1;">3️⃣ Believe in optimism.</div>
+  <div style="text-align: center; flex: 1; font-weight: bold;">1️⃣ Perseverance beyond the ordinary.</div>
+  <div style="text-align: center; flex: 1; font-weight: bold;">2️⃣ Never complain.</div>
+  <div style="text-align: center; flex: 1; font-weight: bold;">3️⃣ Believe in optimism.</div>
 </div>
+
 
 ---
 
