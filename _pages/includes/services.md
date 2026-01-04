@@ -5,6 +5,7 @@
 * Program Committee Member of AAAI (2026)
 * Program Committee Member of ICLR (2026)
 * Program Committee Member of CVPR (2026)
+* Program Committee Member of ICME (2026)
 
 ### Invited Reviewer of Journals:
 
