@@ -1,4 +1,5 @@
 # 🎖 Honors and Awards
+- Excellent Graduate, Zhejiang Province (master) (Top 1%, 1/327)
 
 - 2025.10 National Scholarship of China (master) (Top 1%, 2/327)
 
