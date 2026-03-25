@@ -1,13 +1,7 @@
 # 🧑‍🎨 Professional Services
 
-### PC Member of Conferences:
-
-* Program Committee Member of AAAI (2026)
-* Program Committee Member of ICLR (2026)
-* Program Committee Member of CVPR (2026)
-* Program Committee Member of ICME (2026)
-* Program Committee Member of ICML (2026)
+### PC Member of Conferences: AAAI 2026, ICLR 2026, CVPR 2026, ICME 2026, ICML 2026, NeurIPS 2026
 
 ### Invited Reviewer of Journals:
 
-* Invited Reviewer for ACM Transactions on Information Systems (TOIS)
+* ACM Transactions on Information Systems (TOIS)
