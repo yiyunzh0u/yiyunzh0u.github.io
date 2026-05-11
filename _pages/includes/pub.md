@@ -1,4 +1,13 @@
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2026</div><img src='images/a3b2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A$_3$B$_2$: Adaptive Asymmetric Adapter for Alleviating Branch Bias in Vision-Language Image Classification with Few-Shot Learning](https://chairingtool.com/conferences/IJCAIECAI2026/main-track/submissions/804)
+
+**Yiyun Zhou**, Zhonghua Jiang, Wenkang Han, Kunxi Li, Mingjing Xu, Chang Yao, Jingyuan Chen
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/inhernet.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
