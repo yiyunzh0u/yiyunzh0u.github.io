@@ -2,9 +2,9 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2026</div><img src='images/a3b2.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A$_3$B$_2$: Adaptive Asymmetric Adapter for Alleviating Branch Bias in Vision-Language Image Classification with Few-Shot Learning](https://chairingtool.com/conferences/IJCAIECAI2026/main-track/submissions/804)
+[A$_3$B$_2$: Adaptive Asymmetric Adapter for Alleviating Branch Bias in Vision-Language Image Classification with Few-Shot Learning](https://arxiv.org/abs/2605.13161)
 
-**Yiyun Zhou**, Zhonghua Jiang, Wenkang Han, Kunxi Li, Mingjing Xu, Chang Yao, Jingyuan Chen
+**Yiyun Zhou**, Zhonghua Jiang, Wenkang Han, Kunxi Li, Mingjing Xu, Chang Yao, Jingyuan Chen
 
 </div>
 </div>
@@ -14,7 +14,7 @@
 
 [Beyond Student: An Asymmetric Network for Neural Network Inheritance](https://openreview.net/forum?id=mp67iSM7qn)
 
-**Yiyun Zhou**, Jingwei Shi, Mingjing Xu, Zhonghua Jiang, Jingyuan Chen
+**Yiyun Zhou**, Jingwei Shi, Mingjing Xu, Zhonghua Jiang, Jingyuan Chen
 
 </div>
 </div>
@@ -24,7 +24,7 @@
 
 [Collaborative Representation Learning for Alignment of Tactile, Language, and Vision Modalities](https://arxiv.org/pdf/2511.11512)
 
-**Yiyun Zhou**, Mingjing Xu, Jingwei Shi, Quanjiang Li, Jingyuan Chen
+**Yiyun Zhou**, Mingjing Xu, Jingwei Shi, Quanjiang Li, Jingyuan Chen
 
 </div>
 </div>
@@ -32,7 +32,7 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025 (Oral)</div><img src='images/cuff-kt.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Cuff-KT: Tackling Learners’ Real-time Learning Pattern Adjustment via Tuning-Free Knowledge State Guided Model Updating](https://arxiv.org/pdf/2505.19543)
+[Cuff-KT: Tackling Learners' Real-time Learning Pattern Adjustment via Tuning-Free Knowledge State Guided Model Updating](https://arxiv.org/pdf/2505.19543)
 
 **Yiyun Zhou**, Zheqi Lv, Shengyu Zhang, Jingyuan Chen
 
