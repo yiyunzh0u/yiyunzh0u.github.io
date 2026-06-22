@@ -5,3 +5,4 @@
 ### Invited Reviewer of Journals:
 
 * ACM Transactions on Information Systems (TOIS)
+* Transactions on Machine Learning Research (TMLR)
