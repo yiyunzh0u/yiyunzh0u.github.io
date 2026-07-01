@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yiyun Zhou (周逸云)"
-description              : "Focusing on data miming, multimodal learning, transfer learning, LLM, multi-view multi-label learning, and agent." # "Second-year master in ZheJiang University. Focusing on data mining, LLM and multimodal learning."
+description              : "Focusing on self-evolving agent." # "Second-year master in ZheJiang University. Focusing on data mining, LLM and multimodal learning."
 repository               : "yiyunzh0u/yiyunzh0u.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +23,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yiyun Zhou (周逸云)"
   avatar           : "images/profile.png"
-  bio              : "Third-year master in Zhejiang University."
-  location         : "NTU, Singapore"
+  bio              : "Incoming Ph.D. student at NTU."
+  location         : "Singapore"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Cb6wvZIAAAAJ"
   email            : "yiyunzhou@zju.edu.cn"
+  email            : "yiyun.zhou@ntu.edu.sg"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
