@@ -68,8 +68,9 @@
 
 </div>
 </div>
+<img src="https://img.shields.io/badge/EMNLP-2026-blue?style=flat-square"> Kunxi Li, Yufan Xiong, Zhonghua Jiang, <u>Yiyun Zhou</u>, Zhaode Wang, Chengfei Lv, Shengyu Zhang, &quot;**FlowMM: Cross-Modal Information Flow Guided Kv Cache Merging for Efficient Multimodal Context Inference**&quot;. [[arXiv](https://www.arxiv.org/abs/2511.05534)]
 
-<img src="https://img.shields.io/badge/AAAI-2026-blue?style=flat-square"> Zhonghua Jiang, Kui Chen, Kunxi Li, Keting Yin, <u>Yiyun Zhou</u>, Zhaode Wang, Chengfei Lv, Shengyu Zhang, &quot;**AccKV: Towards Efficient Audio-Video LLMs Inference via Adaptive-Focusing and Cross-Calibration KV Cache Optimization**&quot;. [[openreview](https://www.arxiv.org/abs/2511.11106)]
+<img src="https://img.shields.io/badge/AAAI-2026-blue?style=flat-square"> Zhonghua Jiang, Kui Chen, Kunxi Li, Keting Yin, <u>Yiyun Zhou</u>, Zhaode Wang, Chengfei Lv, Shengyu Zhang, &quot;**AccKV: Towards Efficient Audio-Video LLMs Inference via Adaptive-Focusing and Cross-Calibration KV Cache Optimization**&quot;. [[arXiv](https://www.arxiv.org/abs/2511.11106)]
 
 <img src="https://img.shields.io/badge/NeurIPS-2025-blue?style=flat-square"> Quanjiang Li, Tianxiang Xu, Tingjin Luo, Yan Zhong, Yang Li, <u>Yiyun Zhou</u>, Chenping Hou, &quot;**Theory-Driven Label-Specific Representation for Incomplete Multi-View Multi-Label Learning**&quot;. [[openreview](https://openreview.net/forum?id=0Az25lvdT2)]
 
