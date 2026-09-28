@@ -1,16 +1,43 @@
-title: "Yiyun Zhou | 周逸云"
-description: "Yiyun Zhou's academic homepage — multimodal learning, representation learning, and agentic learning."
+title: "Yiyun Zhou (周逸云)"
+description: "Focusing on self-evolving agents."
 url: "https://zyyz.fun"
-baseurl: ""
-lang: en
-timezone: Asia/Shanghai
+repository: "yiyunzh0u/yiyunzh0u.github.io"
+
+author:
+  name: "Yiyun Zhou (周逸云)"
+  avatar: "images/profile.png"
+  bio: "Incoming Ph.D. student at NTU."
+  location: "Singapore"
+  email: "yiyun.zhou@ntu.edu.sg"
+  github: "zyy-2001"
+  googlescholar: "https://scholar.google.com/citations?user=Cb6wvZIAAAAJ"
+
+include:
+  - _pages
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
 
 markdown: kramdown
 kramdown:
   input: GFM
+  hard_wrap: false
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENSE
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+sass:
+  style: compressed
+
+timezone: Asia/Shanghai
+encoding: "utf-8"
