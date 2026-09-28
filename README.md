@@ -10,7 +10,7 @@ This repository contains the Jekyll source for Yiyun Zhou's academic homepage.
 - Honors, service, and education: `_pages/includes/`
 - Site styles: `assets/css/main.scss`
 
-Publication images include their intrinsic pixel dimensions and are rendered with `width: auto`, `max-width: 100%`, and `height: auto`. No fixed image height, crop, or forced aspect ratio is used.
+Publication images use their intrinsic dimensions. Their width may scale with the page, while their height is always calculated automatically from the original aspect ratio.
 
 ## Local preview
 
@@ -18,5 +18,3 @@ Publication images include their intrinsic pixel dimensions and are rendered wit
 bundle install
 bundle exec jekyll serve
 ```
-
-Then open `http://127.0.0.1:4000`.

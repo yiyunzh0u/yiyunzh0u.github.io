@@ -1,5 +1,5 @@
 title: "Yiyun Zhou (周逸云)"
-description: "Focusing on self-evolving agents."
+description: "Focusing on self-evolving agent."
 url: "https://zyyz.fun"
 repository: "yiyunzh0u/yiyunzh0u.github.io"
 
@@ -8,25 +8,27 @@ author:
   avatar: "images/profile.png"
   bio: "Incoming Ph.D. student at NTU."
   location: "Singapore"
+  googlescholar: "https://scholar.google.com/citations?user=Cb6wvZIAAAAJ"
   email: "yiyun.zhou@ntu.edu.sg"
   github: "zyy-2001"
-  googlescholar: "https://scholar.google.com/citations?user=Cb6wvZIAAAAJ"
 
 include:
   - _pages
 
 exclude:
-  - README.md
-  - LICENSE
   - Gemfile
   - Gemfile.lock
+  - LICENSE
+  - README.md
   - vendor
   - node_modules
 
+encoding: "utf-8"
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  auto_ids: true
 
 defaults:
   - scope:
@@ -37,7 +39,7 @@ defaults:
       author_profile: true
 
 sass:
+  sass_dir: _sass
   style: compressed
 
 timezone: Asia/Shanghai
-encoding: "utf-8"

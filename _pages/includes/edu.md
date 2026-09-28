@@ -1,4 +1,4 @@
-# 📖 Education
+# 📖 Educations
 
 - 2023.09 - 2026.03, Master, Software Engineering, Zhejiang University.
 
