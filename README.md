@@ -9,7 +9,7 @@ A lightweight, responsive academic homepage built with Jekyll and hosted on GitH
 - Edit biography, honors, service, and education in `index.html`.
 - Edit visual styles in `assets/css/site.css`.
 
-Publication images preserve their original aspect ratio. The layout uses a bounded visual area with `object-fit: contain`, so wide and near-square figures are displayed without stretching or cropping.
+Publication images preserve their original aspect ratio with `width: 100%` and `height: auto`. They have no forced height, crop, or fixed aspect-ratio container, so wide and near-square figures are displayed without stretching.
 
 ## Local preview
 

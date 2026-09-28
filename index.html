@@ -6,7 +6,7 @@ layout: null
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f7f8f5">
+    <meta name="theme-color" content="#f5f7fb">
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="Yiyun Zhou">
     <meta property="og:type" content="website">
@@ -22,197 +22,133 @@ layout: null
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   </head>
   <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
+    <a class="skip-link" href="#content">Skip to content</a>
 
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a class="wordmark" href="#about" aria-label="Yiyun Zhou, back to top">
-          <span class="wordmark-mark">YZ</span>
-          <span>Yiyun Zhou</span>
-        </a>
-        <nav class="site-nav" aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#news">News</a>
-          <a href="#publications">Publications</a>
-          <a href="#service">Service</a>
-        </nav>
-      </div>
-    </header>
+    <main class="page" id="content">
+      <nav class="quick-nav" aria-label="Page navigation">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#activities">Activities</a>
+      </nav>
 
-    <main id="main-content">
-      <section class="hero section" id="about">
-        <div class="container hero-grid">
-          <aside class="profile-card" aria-label="Profile and contact information">
-            <img class="profile-photo" src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Yiyun Zhou" width="300" height="300">
-            <div class="profile-copy">
-              <p class="eyebrow">Incoming Ph.D. student</p>
-              <h1>Yiyun Zhou <span lang="zh-Hans">周逸云</span></h1>
-              <p class="profile-meta">Nanyang Technological University<br>Singapore</p>
-              <div class="profile-links" aria-label="External profiles">
-                <a href="mailto:yiyun.zhou@ntu.edu.sg">Email</a>
-                <a href="https://scholar.google.com/citations?user=Cb6wvZIAAAAJ" target="_blank" rel="noopener">Scholar</a>
-                <a href="https://github.com/zyy-2001" target="_blank" rel="noopener">GitHub</a>
-              </div>
+      <section class="intro" id="about">
+        <img class="profile-photo" src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Yiyun Zhou" width="300" height="300">
+
+        <h1>Yiyun Zhou <span lang="zh-Hans">| 周逸云</span></h1>
+
+        <p>Hi! I am <strong>Yiyun Zhou</strong>, an incoming Ph.D. student at <a href="https://www.ntu.edu.sg/" target="_blank" rel="noopener">Nanyang Technological University</a>, advised by Prof. <a href="https://scholar.google.com/citations?user=PEEpuNwAAAAJ&hl" target="_blank" rel="noopener">Bo An</a>.</p>
+
+        <p>Previously, I received my M.S. degree from <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener">Zhejiang University</a>, where I was fortunate to be advised by Prof. <a href="https://scholar.google.com/citations?user=o_G2qa0AAAAJ" target="_blank" rel="noopener">Jingyuan Chen</a>.</p>
+
+        <p>My research focuses on <strong>representation learning</strong>, <strong>multimodal learning</strong>, <strong>transfer learning</strong>, <strong>multi-view multi-label learning</strong>, and <strong>agentic learning</strong>. I am particularly interested in building adaptive learning systems that connect multiple modalities and improve through interaction.</p>
+
+        <p>I am always open to research discussions and collaboration. Please feel free to reach out via <a href="mailto:yiyun.zhou@ntu.edu.sg">email</a>.</p>
+
+        <p class="profile-links" aria-label="Contact and academic profiles">
+          <a href="mailto:yiyun.zhou@ntu.edu.sg">Email</a>
+          <span aria-hidden="true">|</span>
+          <a href="https://scholar.google.com/citations?user=Cb6wvZIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <span aria-hidden="true">|</span>
+          <a href="https://github.com/zyy-2001" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </section>
+
+      <section class="content-section" id="news">
+        <div class="section-heading">
+          <h2><span aria-hidden="true">📢</span> News</h2>
+          <span class="heading-line"></span>
+        </div>
+
+        <div class="news-list">
+          {% for item in site.data.news %}
+          <article class="news-item">
+            <time datetime="{{ item.date }}">{{ item.date }}</time>
+            <div>
+              <p><strong>{{ item.venue }}</strong> · <a href="{{ item.url }}"{% unless item.url contains '#' %} target="_blank" rel="noopener"{% endunless %}>{{ item.title }}</a></p>
+              <p class="news-detail">{{ item.detail }}</p>
             </div>
-          </aside>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
 
-          <div class="hero-content">
-            <p class="kicker">Multimodal intelligence · Representation learning · Agents</p>
-            <h2>Building learning systems that connect modalities, adapt efficiently, and keep evolving.</h2>
-            <p class="lead">I am an incoming Ph.D. student at <a href="https://www.ntu.edu.sg/" target="_blank" rel="noopener">Nanyang Technological University</a>, advised by Prof. <a href="https://scholar.google.com/citations?user=PEEpuNwAAAAJ&hl" target="_blank" rel="noopener">Bo An</a>.</p>
-            <p>Previously, I received my M.S. degree from <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener">Zhejiang University</a>, where I was fortunate to be advised by Prof. <a href="https://scholar.google.com/citations?user=o_G2qa0AAAAJ" target="_blank" rel="noopener">Jingyuan Chen</a>. My work spans representation learning, multimodal learning, transfer learning, multi-view multi-label learning, and agentic learning.</p>
+      <section class="content-section" id="publications">
+        <div class="section-heading">
+          <h2><span aria-hidden="true">🚀</span> Selected Publications</h2>
+          <span class="heading-line"></span>
+          <a class="heading-link" href="https://scholar.google.com/citations?user=Cb6wvZIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        </div>
 
-            <div class="principles" aria-label="Personal principles">
-              <span>Persevere</span>
-              <span>Stay constructive</span>
-              <span>Choose optimism</span>
-            </div>
-
-            <a class="contact-callout" href="mailto:yiyun.zhou@ntu.edu.sg">
-              <span>Open to research discussions and collaboration</span>
-              <strong>yiyun.zhou@ntu.edu.sg <span aria-hidden="true">↗</span></strong>
+        <div class="publication-list">
+          {% for paper in site.data.publications.featured %}
+          <article class="publication">
+            <a class="publication-image" href="{{ paper.links[0].url }}" target="_blank" rel="noopener" aria-label="Open {{ paper.title | strip_html }}">
+              <img src="{{ paper.image | relative_url }}" alt="{{ paper.alt }}" loading="lazy">
             </a>
-          </div>
+            <div class="publication-info">
+              <h3><a href="{{ paper.links[0].url }}" target="_blank" rel="noopener">{{ paper.title }}</a></h3>
+              <p class="authors">{{ paper.authors }}</p>
+              <p class="venue"><strong>{{ paper.venue }}</strong>{% if paper.note %} <span>({{ paper.note }})</span>{% endif %}</p>
+              <p class="publication-links">
+                {% for link in paper.links %}[<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>]{% unless forloop.last %} {% endunless %}{% endfor %}
+              </p>
+            </div>
+          </article>
+          {% endfor %}
         </div>
-      </section>
 
-      <section class="section section-tinted" id="news">
-        <div class="container">
-          <div class="section-heading">
+        <h3 class="subsection-title">Other Publications</h3>
+        <div class="compact-publications">
+          {% for paper in site.data.publications.additional %}
+          <article class="compact-publication">
+            <p class="compact-venue">{{ paper.venue }}{% if paper.note %} · {{ paper.note }}{% endif %}</p>
             <div>
-              <p class="eyebrow">Updates</p>
-              <h2>Recent news</h2>
+              <h3><a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a></h3>
+              <p class="authors">{{ paper.authors }}</p>
             </div>
-            <p>Selected milestones and new work.</p>
-          </div>
-
-          <ol class="timeline">
-            {% for item in site.data.news %}
-            <li class="timeline-item">
-              <time datetime="{{ item.date }}">{{ item.date }}</time>
-              <div class="timeline-content">
-                <span class="venue-pill">{{ item.venue }}</span>
-                <h3><a href="{{ item.url }}"{% unless item.url contains '#' %} target="_blank" rel="noopener"{% endunless %}>{{ item.title }}</a></h3>
-                <p>{{ item.detail }}</p>
-              </div>
-            </li>
-            {% endfor %}
-          </ol>
+          </article>
+          {% endfor %}
         </div>
       </section>
 
-      <section class="section" id="publications">
-        <div class="container">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Research</p>
-              <h2>Selected publications</h2>
-            </div>
-            <a class="text-link" href="https://scholar.google.com/citations?user=Cb6wvZIAAAAJ" target="_blank" rel="noopener">Full list on Google Scholar <span aria-hidden="true">↗</span></a>
-          </div>
-
-          <div class="publication-list">
-            {% for paper in site.data.publications.featured %}
-            <article class="publication-card">
-              <div class="paper-visual">
-                <img src="{{ paper.image | relative_url }}" alt="{{ paper.alt }}" loading="lazy">
-              </div>
-              <div class="paper-copy">
-                <div class="paper-meta">
-                  <span class="venue-pill">{{ paper.venue }}</span>
-                  {% if paper.note %}<span class="note-pill">{{ paper.note }}</span>{% endif %}
-                </div>
-                <h3>{{ paper.title }}</h3>
-                <p class="authors">{{ paper.authors }}</p>
-                <div class="paper-links">
-                  {% for link in paper.links %}
-                  <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }} <span aria-hidden="true">↗</span></a>
-                  {% endfor %}
-                </div>
-              </div>
-            </article>
-            {% endfor %}
-          </div>
-
-          <div class="more-work">
-            <h3>More publications</h3>
-            <div class="compact-papers">
-              {% for paper in site.data.publications.additional %}
-              <article class="compact-paper">
-                <div class="paper-meta">
-                  <span class="venue-pill">{{ paper.venue }}</span>
-                  {% if paper.note %}<span class="note-pill">{{ paper.note }}</span>{% endif %}
-                </div>
-                <div>
-                  <h4><a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a></h4>
-                  <p class="authors">{{ paper.authors }}</p>
-                </div>
-              </article>
-              {% endfor %}
-            </div>
-          </div>
+      <section class="content-section" id="activities">
+        <div class="section-heading">
+          <h2><span aria-hidden="true">🎓</span> Education & Activities</h2>
+          <span class="heading-line"></span>
         </div>
+
+        <div class="two-column">
+          <section>
+            <h3 class="subsection-title">Education</h3>
+            <ul class="clean-list">
+              <li><span>2026 —</span><strong>Ph.D. student</strong>, Nanyang Technological University</li>
+              <li><span>2023–2026</span><strong>M.S. in Software Engineering</strong>, Zhejiang University</li>
+              <li><span>2019–2023</span><strong>B.S. in Computer Science</strong>, Nanchang University</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 class="subsection-title">Professional Service</h3>
+            <p><strong>Conference reviewer:</strong> AAAI 2026–2027, ICLR 2026, CVPR 2026, ICME 2026, ICML 2026, IJCAI 2026, and NeurIPS 2026.</p>
+            <p><strong>Outstanding reviewer:</strong> ICML 2026 and IJCAI 2026.</p>
+            <p><strong>Journal reviewer:</strong> TOIS and TMLR.</p>
+          </section>
+        </div>
+
+        <h3 class="subsection-title honors-title">Honors & Awards</h3>
+        <ul class="honor-list">
+          <li><time>2026</time><span>Excellent Graduate, Zhejiang Province — Top 1%, 1/327</span></li>
+          <li><time>2025</time><span>National Scholarship of China — Top 1%, 2/327</span></li>
+          <li><time>2019–2023</time><span>First-class Scholarship, Nanchang University</span></li>
+          <li><time>2019–2023</time><span>ICPC/CCPC regional silver and bronze medals</span></li>
+          <li><time>2019–2023</time><span>Jiangxi Collegiate Programming Contest, 2nd place</span></li>
+        </ul>
       </section>
 
-      <section class="section section-tinted" id="service">
-        <div class="container">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Academic journey</p>
-              <h2>Honors, service & education</h2>
-            </div>
-          </div>
-
-          <div class="detail-grid">
-            <article class="detail-card">
-              <span class="detail-index">01</span>
-              <h3>Honors</h3>
-              <ul>
-                <li><strong>2026</strong> Excellent Graduate, Zhejiang Province <span>Top 1%, 1/327</span></li>
-                <li><strong>2025</strong> National Scholarship of China <span>Top 1%, 2/327</span></li>
-                <li><strong>2019–23</strong> First-class Scholarship, Nanchang University</li>
-                <li><strong>2019–23</strong> ICPC/CCPC regional silver and bronze medals</li>
-                <li><strong>2019–23</strong> Jiangxi Collegiate Programming Contest, 2nd place</li>
-              </ul>
-            </article>
-
-            <article class="detail-card">
-              <span class="detail-index">02</span>
-              <h3>Professional service</h3>
-              <p class="detail-label">Program committee / reviewer</p>
-              <p>AAAI 2026–27, ICLR 2026, CVPR 2026, ICME 2026, ICML 2026, IJCAI 2026, and NeurIPS 2026.</p>
-              <p class="detail-highlight">Outstanding reviewer: ICML 2026 & IJCAI 2026</p>
-              <p class="detail-label">Journal reviewer</p>
-              <p>ACM Transactions on Information Systems (TOIS) and Transactions on Machine Learning Research (TMLR).</p>
-            </article>
-
-            <article class="detail-card">
-              <span class="detail-index">03</span>
-              <h3>Education</h3>
-              <div class="education-item">
-                <time>2026 —</time>
-                <p><strong>Ph.D. student</strong><br>Nanyang Technological University</p>
-              </div>
-              <div class="education-item">
-                <time>2023–26</time>
-                <p><strong>M.S. in Software Engineering</strong><br>Zhejiang University</p>
-              </div>
-              <div class="education-item">
-                <time>2019–23</time>
-                <p><strong>B.S. in Computer Science</strong><br>Nanchang University</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
+      <footer>
+        <p>© {{ site.time | date: '%Y' }} Yiyun Zhou · Last updated September 2026</p>
+      </footer>
     </main>
-
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>© {{ site.time | date: '%Y' }} Yiyun Zhou</p>
-        <p>Designed for clarity, built with Jekyll.</p>
-        <a href="#about">Back to top ↑</a>
-      </div>
-    </footer>
   </body>
 </html>
