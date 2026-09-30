@@ -1,0 +1,33 @@
+<script>
+  (function () {
+    var badges = document.querySelectorAll('.all_citation_badges');
+    if (!badges.length) return;
+
+    var dataUrl = {% if site.google_scholar_stats_use_cdn %}
+      'https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json';
+    {% else %}
+      'https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json';
+    {% endif %}
+
+    fetch(dataUrl)
+      .then(function (response) {
+        if (!response.ok) throw new Error('Google Scholar data request failed');
+        return response.json();
+      })
+      .then(function (data) {
+        if (data.citedby === undefined || data.citedby === null) return;
+        badges.forEach(function (badge) {
+          var image = document.createElement('img');
+          image.src = 'https://img.shields.io/badge/Paper%20Citations-' + encodeURIComponent(data.citedby) + '-blue?style=social&logo=googlescholar';
+          image.alt = 'Google Scholar citations: ' + data.citedby;
+          image.loading = 'lazy';
+          badge.replaceChildren(image);
+        });
+      })
+      .catch(function () {
+        badges.forEach(function (badge) {
+          badge.textContent = 'Google Scholar';
+        });
+      });
+  }());
+</script>
