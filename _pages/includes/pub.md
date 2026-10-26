@@ -1,7 +1,7 @@
 # 📝 Publications
 
 <div class="paper-box">
-  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">IJCAI 2026 (Oral)</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of A3B2"><img class="paper-image" src="{{ '/images/a3b2.png' | relative_url }}" alt="Overview of A3B2" width="880" height="181" loading="lazy" decoding="async"><span class="paper-image-hint" aria-hidden="true">View full image</span></button></div></div>
+  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">IJCAI 2026 (Oral)</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of A3B2"><img class="paper-image" src="{{ '/images/a3b2.png' | relative_url }}" alt="Overview of A3B2" width="880" height="181" loading="lazy" decoding="async"></button></div></div>
   <div class="paper-box-text" markdown="1">
 
 [A$_3$B$_2$: Adaptive Asymmetric Adapter for Alleviating Branch Bias in Vision-Language Image Classification with Few-Shot Learning](https://arxiv.org/abs/2605.13161)
@@ -12,7 +12,7 @@
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">ICLR 2026</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of InherNet"><img class="paper-image" src="{{ '/images/inhernet.png' | relative_url }}" alt="Overview of InherNet" width="525" height="318" loading="lazy" decoding="async"><span class="paper-image-hint" aria-hidden="true">View full image</span></button></div></div>
+  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">ICLR 2026</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of InherNet"><img class="paper-image" src="{{ '/images/inhernet.png' | relative_url }}" alt="Overview of InherNet" width="525" height="318" loading="lazy" decoding="async"></button></div></div>
   <div class="paper-box-text" markdown="1">
 
 [Beyond Student: An Asymmetric Network for Neural Network Inheritance](https://openreview.net/forum?id=mp67iSM7qn)
@@ -23,7 +23,7 @@
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">AAAI 2026</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of tactile-language-vision collaborative representation learning"><img class="paper-image" src="{{ '/images/tlv-core.png' | relative_url }}" alt="Overview of tactile-language-vision collaborative representation learning" width="825" height="475" loading="lazy" decoding="async"><span class="paper-image-hint" aria-hidden="true">View full image</span></button></div></div>
+  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">AAAI 2026</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of tactile-language-vision collaborative representation learning"><img class="paper-image" src="{{ '/images/tlv-core.png' | relative_url }}" alt="Overview of tactile-language-vision collaborative representation learning" width="825" height="475" loading="lazy" decoding="async"></button></div></div>
   <div class="paper-box-text" markdown="1">
 
 [Collaborative Representation Learning for Alignment of Tactile, Language, and Vision Modalities](https://arxiv.org/pdf/2511.11512)
@@ -34,7 +34,7 @@
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">KDD 2025 (Oral)</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of Cuff-KT"><img class="paper-image" src="{{ '/images/cuff-kt.png' | relative_url }}" alt="Overview of Cuff-KT" width="1805" height="785" loading="lazy" decoding="async"><span class="paper-image-hint" aria-hidden="true">View full image</span></button></div></div>
+  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">KDD 2025 (Oral)</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of Cuff-KT"><img class="paper-image" src="{{ '/images/cuff-kt.png' | relative_url }}" alt="Overview of Cuff-KT" width="1805" height="785" loading="lazy" decoding="async"></button></div></div>
   <div class="paper-box-text" markdown="1">
 
 [Cuff-KT: Tackling Learners' Real-time Learning Pattern Adjustment via Tuning-Free Knowledge State Guided Model Updating](https://arxiv.org/pdf/2505.19543)
@@ -45,7 +45,7 @@
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">ACL 2025</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of CoLA"><img class="paper-image" src="{{ '/images/cola.png' | relative_url }}" alt="Overview of CoLA" width="1810" height="358" loading="lazy" decoding="async"><span class="paper-image-hint" aria-hidden="true">View full image</span></button></div></div>
+  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">ACL 2025</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of CoLA"><img class="paper-image" src="{{ '/images/cola.png' | relative_url }}" alt="Overview of CoLA" width="1810" height="358" loading="lazy" decoding="async"></button></div></div>
   <div class="paper-box-text" markdown="1">
 
 [CoLA: Collaborative Low-Rank Adaptation](https://arxiv.org/pdf/2505.15471)
@@ -56,7 +56,7 @@
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">WWW 2025</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of DisKT"><img class="paper-image" src="{{ '/images/diskt.jpg' | relative_url }}" alt="Overview of DisKT" width="500" height="250" loading="lazy" decoding="async"><span class="paper-image-hint" aria-hidden="true">View full image</span></button></div></div>
+  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">WWW 2025</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of DisKT"><img class="paper-image" src="{{ '/images/diskt.jpg' | relative_url }}" alt="Overview of DisKT" width="500" height="250" loading="lazy" decoding="async"></button></div></div>
   <div class="paper-box-text" markdown="1">
 
 [DisKT: Disentangled Knowledge Tracing for Alleviating Cognitive Bias](https://arxiv.org/pdf/2503.02539)
@@ -67,7 +67,7 @@
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">ECML-PKDD 2025 (Oral)</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of DKT2"><img class="paper-image" src="{{ '/images/dkt2.jpg' | relative_url }}" alt="Overview of DKT2" width="500" height="250" loading="lazy" decoding="async"><span class="paper-image-hint" aria-hidden="true">View full image</span></button></div></div>
+  <div class="paper-box-image" markdown="0"><div class="paper-image-frame"><div class="badge">ECML-PKDD 2025 (Oral)</div><button class="paper-image-trigger" type="button" aria-label="View full-size image: Overview of DKT2"><img class="paper-image" src="{{ '/images/dkt2.jpg' | relative_url }}" alt="Overview of DKT2" width="500" height="250" loading="lazy" decoding="async"></button></div></div>
   <div class="paper-box-text" markdown="1">
 
 [DKT2: Revisiting Applicable and Comprehensive Knowledge Tracing in Large-Scale Data](https://arxiv.org/pdf/2501.14256)
