@@ -18,3 +18,13 @@ Publication images use their intrinsic dimensions. Their width may scale with th
 bundle install
 bundle exec jekyll serve
 ```
+
+## Google Scholar citation updates
+
+The `Update Google Scholar citations` workflow refreshes the
+`google-scholar-stats` branch every day and can also be started manually.
+Google Scholar blocks GitHub-hosted runner IP addresses, so the workflow uses
+the dedicated [SerpAPI Google Scholar Author API](https://serpapi.com/google-scholar-author-api).
+Add a repository Actions secret named `SERPAPI_API_KEY` containing a SerpAPI
+key. The crawler validates the returned Scholar ID and citation count before
+publishing; failed requests leave the previous valid data untouched.

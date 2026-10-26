@@ -3,17 +3,22 @@
     var badges = document.querySelectorAll('.all_citation_badges');
     if (!badges.length) return;
 
-    var dataUrl = {% if site.google_scholar_stats_use_cdn %}
-      'https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json';
-    {% else %}
-      'https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json';
-    {% endif %}
+    var dataUrls = [
+      'https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json?ts=' + Date.now(),
+      'https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json'
+    ];
 
-    fetch(dataUrl)
-      .then(function (response) {
+    function fetchData(index) {
+      return fetch(dataUrls[index], { cache: 'no-store' }).then(function (response) {
         if (!response.ok) throw new Error('Google Scholar data request failed');
         return response.json();
-      })
+      }).catch(function (error) {
+        if (index + 1 < dataUrls.length) return fetchData(index + 1);
+        throw error;
+      });
+    }
+
+    fetchData(0)
       .then(function (data) {
         if (data.citedby === undefined || data.citedby === null) return;
         badges.forEach(function (badge) {
